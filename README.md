@@ -2,6 +2,7 @@
 - clone repository
 ```
 git clone git@github.com:chill-o-u-t/cargoes_prices.git
+cd cargo_prices/
 ```
 - Edit .env
 ```
