@@ -7,5 +7,8 @@ ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt
+RUN pip install 'tortoise[asyncpg]'
+RUN pip uninstall -y tortoise-orm
+RUN pip3 install tortoise-orm
 
 COPY app .
