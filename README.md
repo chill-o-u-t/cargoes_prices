@@ -24,7 +24,7 @@ docker-compose up -d --build
 ```
 - Create migrations
 ```
-sudo docker-compose exec web aerich init -t app.core.confog.DATABASE_CONFIG
+sudo docker-compose exec web aerich init -t app.core.config.DATABASE_CONFIG
 sudo docker-compose exec web aerich init-db
 ```
 - info about enpoints at http://127.0.0.1:8000/docs
