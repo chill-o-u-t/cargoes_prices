@@ -3,9 +3,17 @@
 ```
 git clone git@github.com:chill-o-u-t/cargoes_prices.git
 ```
+- Edit .env
+```
+rename .env.template to .env
+in .env
+<user> to postgres user
+<password> to postgres pass
+<db_name> to database name
+```
 - Start with Docker
 ```
-Edit in docker-compose and .env
+Edit in docker-compose
 <user> to postgres user
 <password> to postgres pass
 <db_name> to database name
